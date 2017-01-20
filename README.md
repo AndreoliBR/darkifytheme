@@ -1,7 +1,7 @@
 # darkifytheme
-Darkify is a minimalist and beautiful theme. For possible updates, visit [@Darkify](telegram.me/darkify)
+Darkify is a minimalist and beautiful theme. For possible updates, visit [@Darkify](https://telegram.me/darkify)
 
-For more information, contact me through [this link](telegram.me/capitalista).
+For more information, contact me through [this link](https://telegram.me/capitalista).
 
 ## License
 Published under MIT license. Feel free to modify this file wathever you want.
