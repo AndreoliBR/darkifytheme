@@ -87,10 +87,10 @@ tooltipFg: #5d6c80;
 tooltipBorderFg: #c9d1db;
 titleBg: nullWindowBgOver;							// Title bar
 titleShadow: #00000003;
-titleButtonFg: #acbfbf;								// Title bar buttons (min/max/close)
-titleButtonBgOver: #e5e5e5;
-titleButtonFgOver: #9a9a9a;
-titleButtonCloseBgOver: #e81123;
+titleButtonFg: #cce5e5;								// Title bar buttons (min/max/close)
+titleButtonBgOver: #0c1111;
+titleButtonFgOver: #cce5e5;
+titleButtonCloseBgOver: #549cdd;
 titleButtonCloseFgOver: windowFgActive;
 titleFgActive: #85B4CC;								// Active title bar text (Mac)
 titleFg: #57869E;									// Inactive title bar text (Mac)
@@ -141,7 +141,7 @@ dialogsChatIconFg: dialogsNameFg;
 dialogsDateFg: windowSubTextFg;						// Chats list date text
 dialogsTextFg: windowSubTextFg;						// Chats list message preview text
 dialogsTextFgService: windowSubTextFg;			    // Chats list message preview sender name
-dialogsDraftFg: #a81f1f;							// Chats list message preview for drafts
+dialogsDraftFg: #cc1616;							// Chats list message preview for drafts
 dialogsVerifiedIconBg: windowBgActive;
 dialogsVerifiedIconFg: windowFgActive;
 dialogsSendingIconFg: #c1c1c1;
@@ -159,23 +159,23 @@ dialogsDraftFgOver: dialogsDraftFg;
 dialogsVerifiedIconBgOver: dialogsVerifiedIconBg;
 dialogsVerifiedIconFgOver: dialogsVerifiedIconFg;
 dialogsSendingIconFgOver: dialogsSendingIconFg;
-dialogsSentIconFgOver: dialogsSentIconFg;
+dialogsSentIconFgOver: #cce5e5;
 dialogsUnreadBgOver: dialogsUnreadBg;
 dialogsUnreadBgMutedOver: dialogsUnreadBgMuted;
 dialogsUnreadFgOver: dialogsUnreadFg;
 dialogsBgActive: #445454;							// Currently selected chat in chats list
 dialogsNameFgActive: windowFgActive;
 dialogsChatIconFgActive: dialogsNameFgActive;
-dialogsDateFgActive: windowFgActive;
+dialogsDateFgActive: #cce5e5;
 dialogsTextFgActive: windowFgActive;
 dialogsTextFgServiceActive: dialogsTextFgActive;
 dialogsDraftFgActive: #c6e1f7;
-dialogsVerifiedIconBgActive: dialogsTextFgActive;
-dialogsVerifiedIconFgActive: dialogsBgActive;
+dialogsVerifiedIconBgActive: #cce5e5;
+dialogsVerifiedIconFgActive: #172121;
 dialogsSendingIconFgActive: #ffffff99;
-dialogsSentIconFgActive: dialogsTextFgActive;
+dialogsSentIconFgActive: #cce5e5;
 dialogsUnreadBgActive: dialogsTextFgActive;
-dialogsUnreadBgMutedActive: dialogsDraftFgActive;
+dialogsUnreadBgMutedActive: #cce5e5;
 dialogsUnreadFgActive: dialogsBgActive;
 dialogsForwardBg: dialogsBgActive;
 dialogsForwardFg: dialogsNameFgActive;
@@ -211,22 +211,22 @@ historyUnreadBarFg: #538bb4;
 historyForwardChooseBg: #0000004c;
 historyForwardChooseFg: windowFgActive;
 historyPeer1NameFg: #C7473E;						// Group chat sender name
-historyPeer1UserpicBg: #e17076;
+historyPeer1UserpicBg: #ffffff;
 historyPeer2NameFg: #4fad2d;
-historyPeer2UserpicBg: #7bc862;
+historyPeer2UserpicBg: #ffffff;
 historyPeer3NameFg: #d09306;
-historyPeer3UserpicBg: #e5ca77;
+historyPeer3UserpicBg: #ffffff;
 historyPeer4NameFg: windowActiveTextFg;
-historyPeer4UserpicBg: #65aadd;
+historyPeer4UserpicBg: #ffffff;
 historyPeer5NameFg: #8544d6;
-historyPeer5UserpicBg: #a695e7;
+historyPeer5UserpicBg: #ffffff;
 historyPeer6NameFg: #cd4073;
-historyPeer6UserpicBg: #ee7aae;
+historyPeer6UserpicBg: #ffffff;
 historyPeer7NameFg: #2996ad;
-historyPeer7UserpicBg: #6ec9cb;
+historyPeer7UserpicBg: #ffffff;
 historyPeer8NameFg: #ce671b;
-historyPeer8UserpicBg: #faa774;
-historyPeerUserpicFg: windowFgActive;
+historyPeer8UserpicBg: #ffffff;
+historyPeerUserpicFg: #172121;
 historyScrollBarBg: #267db27a;
 historyScrollBarBgOver: #267db2bc;
 historyScrollBg: #267db24c;
@@ -237,9 +237,9 @@ msgOutBg: #2e3838;									// Outgoing message background
 msgOutBgSelected: #0C5269;							// Selected outgoing message background
 msgSelectOverlay: #358cd44c;
 msgStickerOverlay: #358cd47f;						// Selected sticker overlay
-msgInServiceFg: windowActiveTextFg;					// Incoming reply quoted name
+msgInServiceFg: #549cdd;							// Incoming reply quoted name
 msgInServiceFgSelected: windowActiveTextFg;			// Selected incoming reply quoted name
-msgOutServiceFg: windowActiveTextFg;				// Outgoing reply quoted name
+msgOutServiceFg: #cce5e5;				// Outgoing reply quoted name
 msgOutServiceFgSelected: windowActiveTextFg;		// Selected outgoing reply quoted name
 msgInShadow: #144D7B29;								// Incoming message box shadow
 msgInShadowSelected: #548dbb29;						// Selected incoming message box shadow
@@ -252,9 +252,9 @@ msgOutDateFgSelected: #5e92b2;
 msgServiceFg: #D5D5D5;								// Chat service message text (join/part/date/etc)
 msgServiceBg: #267db27f;
 msgServiceBgSelected: #62afdda2;
-msgInReplyBarColor: activeLineFg;
+msgInReplyBarColor: #2b8be1;
 msgInReplyBarSelColor: activeLineFg;
-msgOutReplyBarColor: historyOutIconFg;
+msgOutReplyBarColor: #acbfbf;
 msgOutReplyBarSelColor: historyOutIconFgSelected;
 msgImgReplyBarColor: msgServiceFg;
 msgInMonoFg: #47768e;								// Incoming monospaced / code text
